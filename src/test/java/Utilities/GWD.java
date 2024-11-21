@@ -23,7 +23,7 @@ public class GWD {
         System.setProperty("user.language", "EN");
 
         if (threadBrowserName.get()==null) // TODO XML den çalışmayan durumlar için
-            threadBrowserName.set("firefox");  // default chrome
+            threadBrowserName.set("chrome");  // default chrome
 
 
         if (threadDriver.get() == null)   // bu hattaki driver NULL ise
