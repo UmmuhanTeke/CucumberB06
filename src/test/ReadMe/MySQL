@@ -1,0 +1,32 @@
+DB -> DataBase -> Data ların olduğu yer , Veri Tabanı
+bunun olduğu makinaya da DB Server deniyor
+
+Benim çok müşterim var var, bunların bilgilerini bir yerde saklamam lazım
+Word da saklamak istersin, Excel demi, NotPad da mi
+
+Excel Verileri süzme imkanı, analiz yapma, nekadar satışım,
+benden en fazla alış yapan müşteriler
+Müşterilerimin illere dağılımı
+
+Sana Excelden daha kolay ve daha çok analize imkan veren,
+verileri bir tablo içinde saklayıp, senin yazacağın ve onun dan anlayacağı
+şekilde vereceğim cümlerle, komutlarla ,
+
+Yukarıdaki imkanları sana sağlayan verileri içinde saklayıp,
+senin verdiğin komuta göre sana ister liste, ister analiz veren
+İstediğim datayı hızlıca bana veren,
+Programlara DabaBase Server denir. Kısa olarak DataBase denir.
+
+Günümüzdeki DataBase çeşitler.
+
+Microsoft DB-> MsSql Server
+Oracle    DB-> Oracle DB Server
+Ücretsiz,Open Source -> MySql Server
+
+DataBase in Dili
+Musteri tablosundan bütün bilgileri seç,al
+Select * from Musteri -> Müşteri bigilerinin tutulduğu tablodan
+                         bütün bilgileri al,seç, getir
+
+Yapısal Sorgulama Dili : SQL=Structured Query Language
+Sql : DB ile konuşma dili

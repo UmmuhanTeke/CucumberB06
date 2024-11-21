@@ -1,0 +1,15 @@
+package Runners;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(
+        tags = "@RegressionTest or @SmokeTest", //sadece tag i belirtilen senaryoları çalıştırılır.
+        features = {"src/test/java/FeatureFiles"},  //TODO klasördeki bütün feature lar
+        glue = {"StepDefinitions"}
+)
+
+public class _05_TestRunnerRegression extends AbstractTestNGCucumberTests {
+}
+// group da or var ise : herhangi birisi olan çağrılır
+// group da and var ise : her iki grup adı olanlar çağrılır

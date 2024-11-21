@@ -1,0 +1,43 @@
+Yazılım Birimine Proje geldi
+Business User BU  Müşteri
+
+Product Owner - Mdy - idari görev gibidir
+Takımda
+Business Analist -> BA
+Developer
+Tester
+Scrum Master - lead
+
+  (unit)Test Driven Development TDD
+  -> BU -> BA
+  -> BA -> Developerlar (Unit testini)
+     Developer yazmaya başlıyor
+     Testerlar devreye giriyor(Developerın yazdıkları çalışıyor mu?)
+     Tester ın yapması gereken Son kullanıcı(BU) nın istediği gibi olmuş mu?
+
+  BDD
+  Behavior Driven Development (son kullanı davranışına göre yazılım geliştirme)
+Geçerli model bu
+  -> BU -> BA, Tester(bulunuyor)
+  -> BA -> Developer a ve TESTER a anlatyor
+     2 si aynı an da başlıyor
+     Developer yazılımı yazıyor
+     Tester testlerini yazıyor (BU istediği testi yazmış oluyor)
+     Developer Son kullanıya göre yazdı mı ? onu test ediyor
+
+  Agile Modeli esas kuralı nedir ?
+   AGILE metodolojisi -> Müşteri odaklı ve her yapılan işlemi
+gösterilebilecek hale geldiğinde müşteriye göstererek ilerleme.
+
+“ Agile methodolojisi ile iş yapıyorsanız ve uygulama testi için
+BDD kullanmıyorsanız kendinizle çelişiyorsunuzdur. ”
+
+TestNG -> bunu takımdaki herkes anlamaz
+TCK_Kim_Dog_1()
+TCK_Kim_Dog_2()
+TCK_Kim_Dog_3()
+
+Herkes anlar -> Cucumber test yazma şekli
+Siteye Git
+Login bilgilerini Gir
+Girdiğinii doğrula
