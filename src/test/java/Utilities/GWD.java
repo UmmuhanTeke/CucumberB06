@@ -32,7 +32,6 @@ public class GWD {
                 case "firefox" :  threadDriver.set(new FirefoxDriver());
                     FirefoxOptions options = new FirefoxOptions(); //maximize yapıldı
                     options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--window-size=1400,2400");
-
                     threadDriver.set(new FirefoxDriver(options));
                 break; // bu threade bir tane driver set et
                 case "edge" :  threadDriver.set(new EdgeDriver()); break;
